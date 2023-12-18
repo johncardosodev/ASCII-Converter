@@ -29,13 +29,16 @@ namespace NumberConverter
             {
                 //Retornando o valor hexadecimal
                 return final.Remove(final.Length - 1);
-            }
-            else
-            {
+                }
+                else
+                {
                 return "";
+                }
             }
-        }
 
+            //Retornando o valor hexadecimal
+            return sb.ToString();
+        }
 
         //funcao para converter string ASCII para Binario
         public string StringToBinary(string str, string delimitador)
@@ -66,7 +69,7 @@ namespace NumberConverter
             string final = sb.ToString();
             if (final.Length > 0)
             {
-                //Retornando o valor binario
+            //Retornando o valor binario
                 return final.Remove(final.Length - 1);
             }
             else
@@ -103,7 +106,7 @@ namespace NumberConverter
             string final = sb.ToString();
             if (final.Length > 0)
             {
-                //Retornando o valor decimal
+            //Retornando o valor decimal
                 return final.Remove(final.Length - 1);
             }
             else
